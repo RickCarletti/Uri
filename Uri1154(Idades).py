@@ -1,9 +1,0 @@
-n = 1
-soma = 0
-cont = 0
-while n >= 0:
-    n = int(input())
-    if n >= 0:
-        soma = soma + n
-        cont = cont + 1
-print('{:.2f}'.format(soma/cont), end='\n')

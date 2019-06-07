@@ -1,0 +1,11 @@
+X = int(input())
+Z = X - 1
+while Z <= X:
+    Z = int(input())
+soma = 0
+cont = 0
+while soma <= Z:
+    soma = soma + X
+    X = X + 1
+    cont = cont + 1
+print(cont, end='\n')
